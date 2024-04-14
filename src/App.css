@@ -314,7 +314,7 @@ link {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: #2e55fa;
+  background: yellow;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -546,6 +546,7 @@ link {
   top: 210px;
 }
 
+
 .playing .wave {
   border-radius: 40%;
   animation: wave 3000ms infinite linear;
@@ -585,4 +586,17 @@ link {
 .ico{
   width: 40px;
   font-size: 30px;
+}
+
+.catergories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catergories button{
+  color: #fff;
+  background-color: #2e55fa;
+  border: none;
+  border-radius: 10px;
 }

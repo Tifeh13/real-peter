@@ -3,6 +3,10 @@ import OffcanvasExample from '../components/Navbar';
 import { IoLocationOutline } from "react-icons/io5";
 import { GiWoodStick } from "react-icons/gi";
 import { LuWallet } from "react-icons/lu";
+import { BsCloudUpload } from "react-icons/bs";
+import { IoBarChartOutline } from "react-icons/io5";
+import { MdOutlinePhoneAndroid } from "react-icons/md";
+import { IoCameraOutline } from "react-icons/io5";
 
 
 function Login() {
@@ -193,8 +197,8 @@ function Login() {
                   <div className="wave"></div>
 
                   <div className="infotop">
-                  <IoLocationOutline className='ico' /><br />           
-                    Design, Art & Multimedia
+                  <BsCloudUpload className='ico' /><br /> <br />           
+                    Human Resources
                     <div className="name">198 Open Positions</div>
                   </div>
                 
@@ -208,8 +212,8 @@ function Login() {
                   <div className="wave"></div>
 
                   <div className="infotop">
-                  <IoLocationOutline className='ico' /><br />           
-                    Design, Art & Multimedia
+                  <IoBarChartOutline className='ico' /><br /> <br />           
+                    Telecommunications
                     <div className="name">198 Open Positions</div>
                   </div>
                 
@@ -223,8 +227,8 @@ function Login() {
                   <div className="wave"></div>
 
                   <div className="infotop">
-                  <IoLocationOutline className='ico' /><br />           
-                    Design, Art & Multimedia
+                  <MdOutlinePhoneAndroid className='ico' /><br /><br />           
+                    Resturant/Food Services
                     <div className="name">198 Open Positions</div>
                   </div>
                 
@@ -238,8 +242,8 @@ function Login() {
                   <div className="wave"></div>
 
                   <div className="infotop">
-                  <IoLocationOutline className='ico' /><br />           
-                    Design, Art & Multimedia
+                  <IoCameraOutline className='ico' /><br />  <br />     
+                   Construction/Facilities
                     <div className="name">198 Open Positions</div>
                   </div>
                 
@@ -253,11 +257,14 @@ function Login() {
                   <div className="wave"></div>
 
                   <div className="infotop">
-                  <IoLocationOutline className='ico' /><br />           
-                    Design, Art & Multimedia
+                  <IoLocationOutline className='ico' /><br /> <br />          
+                    Health
                     <div className="name">198 Open Positions</div>
                   </div>
                 
+              </div>
+              <div className="catergories">
+                <button>All Catergories</button>
               </div>
               
               </div>
